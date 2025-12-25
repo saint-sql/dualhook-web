@@ -44,3 +44,8 @@
    ```bash
    docker --version
    docker run hello-world
+
+<img width="519" height="295" alt="image" src="https://github.com/user-attachments/assets/b9f280b3-75f1-4890-b8ee-5f172090218c" />
+<img width="630" height="818" alt="image" src="https://github.com/user-attachments/assets/4e6cd69e-e43c-451f-9616-a833da686380" />
+
+
