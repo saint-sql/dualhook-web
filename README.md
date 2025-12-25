@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/8b5Z4qQ.png" width="180" alt="Shield Icon"/>
+  <img src="https://avatars.githubusercontent.com/u/231521105?s=400&u=7a1e25fdf7a1b5e1b4872ada8b595a9d859c0f26&v=4" width="180" alt="Shield Icon"/>
 </p>
 
 <h1 align="center">DualHook-Web</h1>
