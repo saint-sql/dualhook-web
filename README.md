@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/231521105?s=400&u=7a1e25fdf7a1b5e1b4872ada8b595a9d859c0f26&v=4" width="180" alt="Profile Picture"/>
 </p>
 
-<h1 align="center">DualHook-Web 🛡️</h1>
+<h1 align="center">DualHook-Web</h1>
 
 <p align="center">
   <strong>Web Vulnerability Scanner</strong><br>
@@ -45,3 +45,36 @@
    ```bash
    docker --version
    docker run hello-world
+   
+## Installation
+ ```bash
+git clone https://github.com/saint-sql/dualhook-web.git
+cd dualhook-web
+pip install -r requirements.txt
+```
+## Setting Up Discord Webhooks
+
+In your Discord server: Server Settings → Integrations → Webhooks → Create Webhook
+Create two webhooks (preferably in separate channels):
+One for summary (quick overview)
+One for detailed findings
+
+Copy each webhook URL (e.g., https://discord.com/api/webhooks/...)
+
+## Usage
+```Run a scan:
+python getscanned.py <target_url> <summary_webhook_url> <details_webhook_url>
+```
+```
+python getscanned.py https://scanme.nmap.org https://discord.com/api/webhooks/.../summary https://discord.com/api/webhooks/.../details
+```
+## Recommended test targets:
+
+https://scanme.nmap.org (official ZAP testing site)
+
+https://httpbin.org (fast & clean)
+
+## Disclaimer
+Educational and ethical use only.
+Only scan sites you own or have explicit permission to test.
+No responsibility for misuse.
