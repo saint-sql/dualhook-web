@@ -78,4 +78,5 @@ https://httpbin.org (fast & clean)
 ## Disclaimer
 Educational and ethical use only.
 Only scan sites you own or have explicit permission to test.
-No responsibility for misuse.
+No responsibility for misuse. I dont
+fancy jailtime for your silly decisions
