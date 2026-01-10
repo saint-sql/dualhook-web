@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/231521105?s=400&u=7a1e25fdf7a1b5e1b4872ada8b595a9d859c0f26&v=4" width="180" alt="Profile Picture"/>
 </p>
 
-<h1 align="center">DualHook-Web</h1>
+<h1 align="center">DualHook</h1>
 
 <p align="center">
   <strong>Web Vulnerability Scanner</strong><br>
@@ -26,11 +26,12 @@
 
 ## Features
 
-- Real **OWASP ZAP Baseline Scan** (passive + light active) via Docker
-- Fast scans (~1-2 minutes)
-- Compact summary + detailed findings in Discord
-- Terminal progress bars
-- Professional Discord embeds with risk levels and timestamps
+- **OWASP ZAP Baseline Scan** (passive scan) via Docker
+  + Also has a passive spider scan ran in background
+- Swift Scan
+- Compact summary + scans attached to webhook via discord integration 
+- Terminal progress
+- Discord embeds with risk levels and timestamps
 
 ## Prerequisites
 
